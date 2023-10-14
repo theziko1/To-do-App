@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Todo app</title>
+     <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbhJREFUSEvdlb9LV2EUxj8PEU6SUFimkdU/IG4u5SANgWNFixAFgrPW5q9JB8HFKcXFIWuOqBCJcg3atQTFHxiE0hIOjxx5v6HXe71+EYc8y71wX57Pe57zHK4449IZ63NOAbabgEmgLVn4FeiWtFqtpUcssn0d+A5cyYhtAS2S1qqB5AHeAA9TBwPABSCez4C3kh6dFvAbqANuVCyxfRtYAjYlXTstYAO4CtyStBxiBwAbkhqKALYbo3tJ45Uzx1n0ChiG/SgPAU+B15Ke5AGS+GfgDvBc0lScywPEDb8BWStiuK2SNrOAlLovQDOwCNyVtJ4LSJZcAvqAriQ2DYxJ2qmI234BzAAXgfmwNCteCCgbou0eYAL4CdQAEe0IQXt2V/Is6gQGk5fRSdR2EuiX9C5ZEn5HuqJ+APfyFvEQwPZLYKSkg15JY7ZvAgvA3yLxQxbZvg98ACKmAfooKd4jpjHw+D6aht8haS7Fd1fSStGl/nVg+xPQATyWFNt8pGzHFs8C7yU9KJtVtoOIXz1QK+lPAeAy8AtYkxRLVVoHO/A+UTr2H2H7ROcq5HP6wyk1tooD/79Fe7TfnBnihE4AAAAAAElFTkSuQmCC" type="image/x-icon">
+    <!-- boxicon cdn  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom scss file  -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Ma Todo App</h1>
+
+        <input type="text" id="taskInput" placeholder="Ajouter une tâche" />
+
+        <i class="bx bx-plus" style="font-size: 24px; padding:auto 0;" onclick="ajouterTache()"></i>
+
+        <ul id="listeTaches"></ul>
+
+        <div class="github">
+          <a href="https://github.com/theziko1"
+            ><i class="bx bxl-github" style="font-size: 24px;"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom js file  -->
+    <script src="main.js"></script>
+  </body>
+</html>

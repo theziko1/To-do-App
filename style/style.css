@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Inter';
+    background-color: #222;
+}
+.container {
+    width: 70%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 10%;
+    background: linear-gradient(#026383ff , #0088ccff);
+    justify-items: center;
+
+}
+.content {
+    padding: 3% 0% ;
+    
+}
+
+.container h1 {
+   
+    font-size: 48px;
+    font-family: 'Inter';
+    color: #fff;
+    text-align: center;
+}
+.container input {
+    
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    font-family: 'Inter';
+}
+.addtask {
+    margin: auto;
+}
+i {
+    
+    color: #fff;
+}
+.github {
+    width: 20%;
+    margin: auto 50%;
+}
+#listeTaches {
+    color: #222;
+    font-family: 'Inter';
+    list-style-type: none;
+    background:#fff;
+    text-align: center;
+    width: 36.5%;
+    margin-left: 30%;
+    
+    
+}
+
+
+#listeTaches:hover {
+    outline: 2px solid #222;
+}
+#listeTaches i:first-child:hover{
+    color: green;
+    
+}
+
+#listeTaches i{
+    color: #222;
+    float: right;
+    
+}
+#listeTaches i:last-child:hover{
+    color: red;
+    
+}
